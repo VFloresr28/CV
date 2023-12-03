@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Mi Portafolio</title>
-  <!-- Agregar enlaces a los estilos de Bootstrap -->
+  <!-- Enlaces a los estilos de Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/6e2966d3f3.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets\style\style.css">  
+  <link rel="stylesheet" href="assets/style/style.css">
 </head>
+
 <body>
 
   <!-- Barra de navegación -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Mi Portafolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,104 +34,116 @@
       </ul>
     </div>
   </nav>
-<!-- Sección Sobre mí -->
+
+ <!-- Sección Sobre mí -->
 <section class="sobremi" id="sobremi">
-  <div class="parrafo2">   
-      <div class="fperfil">
-          <img src="assets\img\fotoperfil.png">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 fperfil">
+        <img src="assets/img/fotoperfil.png" alt="Perfil de Valentina">
       </div>
-      <div class="parrafotexto">
+      <div class="col-md-6 parrafotexto">
         <h2>Valentina Flores R. </h2>
         <ul>
           <li><b>Fecha de Nacimiento:</b> 18 de Julio de 1994</li>
-          <li><b>Direccion:</b> San Martin 366, depto. 402, Santiago, Region Metropolitana, Chile</li>
+          <li><b>Dirección:</b> San Martin 366, depto. 402, Santiago, Región Metropolitana, Chile</li>
         </ul>
-        <p></p>
       </div>
+    </div>
   </div>
 </section>
-<!-- Sección Sobre mí 2-->
+
+<!-- Sección Sobre mí 2 -->
 <section class="sobremi">
-  <div class="parrafo2">   
-    <div class="parrafotexto">
-      <b>Estudios:</b>  
-      <ul>
-      <li><b>Ingenieria en computacion e informatica (Incompletos) </b></li>
-      <li><b>Estudiante de Fullstack Java Script en Desafio Latam</li>
-    </ul>
-    </div>
-    <div class="fperfil">
-          <img src="assets\img\fotoperfil2.jpeg">
-    </div>
-  </div>
-</section>
-<!-- Experiencia -->
-<section class="seccionI">
-  <h2 class="experiencia" id="experiencia">Experiencia</h2>
-  <div class="icons">
-    <i class="fa-solid fa-user fa-2x"></i>
-    <h4>Ejecutiva de atencion al cliente</h4>
-    <p>Teleperformance en la fechas de Junio 2016 - Marzo 2022</p>
-  </div>
-  <div class="icons">
-    <i class="fa-solid fa-star fa-2x"></i>
-    <h4>Ejecutiva de atencion al cliente</h4>
-    <p>Policomp en la fechas de Agosto 2022 - Octubre 2022</p>
-  </div>
-  <div class="icons">
-    <i class="fa-solid fa-envelope fa-2x"></i>
-    <h4>Ejecutiva de atencion al cliente</h4>
-    <p>Upcom DTS en la fechas de Noviembre 2022 - Febrero 2023</p>
-  </div>
-  <div class="icons">
-    <i class="fa-solid fa-phone fa-2x"></i>
-    <h4>Ejecutiva de atencion al cliente</h4>
-    <p>RH Consultores en la fechas de Marzo 2023 - Septiembre 2022</p>
-  </div>
-  <div class="icons">
-    <i class="fa-solid fa-circle-user fa-2x"></i>
-    <h4>Ejecutiva de atencion al cliente</h4>
-    <p>CGS desde Noviembre 2023</p>
-  </div>
-</section>
-
-<!--Grilla1-->
-<section class=" my-3 px-3">
-  <h2 class="portafolio" id="portafolio">Portafolio</h2>
   <div class="container">
-    <div class="row">
-      <div class="card" style="width: 16rem;">
-        <img src="assets\img\landingpage.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Desafio Landing Page.</p>
-          <a href="https://vfloresr28.github.io/landingpage/">Link</a>
-        </div>
+    <div class="row align-items-center">
+      <div class="col-md-6 parrafotexto">
+        <b>Estudios:</b>
+        <ul>
+          <li><b>Ingeniería en Computación e Informática (Incompletos) </b></li>
+          <li><b>Estudiante de Fullstack JavaScript en Desafío Latam</b></li>
+        </ul>
       </div>
-      <div class="card" style="width: 16rem;">
-        <img src="assets\img\iguanapage.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Desafio Iguana Page.</p>
-          <a href="https://vfloresr28.github.io/iguanapage/">Link</a>
-        </div>
-      </div>
-      <div class="card" style="width: 16rem;">
-        <img src="assets\img\cuppon.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Desafio Bootstrap.</p>
-          <a href="https://vfloresr28.github.io/cuppon/">Link</a>
-        </div>
-      </div>
-      <div class="card" style="width: 16rem;">
-        <img src="assets\img\github.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Desafio Github.</p>
-          <a href="https://vfloresr28.github.io/fdsw-github/">Link</a>
-        </div>
+      <div class="col-md-6 fperfil">
+        <img src="assets/img/fotoperfil2.jpeg" alt="Otra imagen de perfil">
       </div>
     </div>
   </div>
-</section> 
+</section>
 
-<footer>
-  <p>Valentina Flors 2023. Todos los derechos reservados.</p>
-</footer>
+
+  <!-- Experiencia -->
+  <section class="seccionI text-white">
+    <div class="container">
+      <h2 class="experiencia" id="experiencia">Experiencia</h2>
+      <div class="row">
+        <div class="col-md-4 icons">
+          <i class="fa-solid fa-user fa-2x"></i>
+          <h4>Ejecutiva de atención al cliente</h4>
+          <p>Teleperformance en las fechas de Junio 2016 - Marzo 2022</p>
+        </div>
+        <div class="col-md-4 icons">
+          <i class="fa-solid fa-star fa-2x"></i>
+          <h4>Ejecutiva de atención al cliente</h4>
+          <p>Policomp en las fechas de Agosto 2022 - Octubre 2022</p>
+        </div>
+        <div class="col-md-4 icons">
+          <i class="fa-solid fa-envelope fa-2x"></i>
+          <h4>Ejecutiva de atención al cliente</h4>
+          <p>Upcom DTS en las fechas de Noviembre 2022 - Febrero 2023</p>
+        </div>
+        <!-- Añade más bloques de experiencia si es necesario -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Grilla1 -->
+  <section class="my-3 px-3">
+    <div class="container">
+      <h2 class="portafolio" id="portafolio">Portafolio</h2>
+      <div class="row">
+        <div class="col-md-3 card">
+          <img src="assets/img/landingpage.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Desafío Landing Page.</p>
+            <a href="https://vfloresr28.github.io/landingpage/">Link</a>
+          </div>
+        </div>
+        <div class="col-md-3 card">
+          <img src="assets/img/iguanapage.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Desafío Iguana Page.</p>
+            <a href="https://vfloresr28.github.io/iguanapage/">Link</a>
+          </div>
+        </div>
+        <div class="col-md-3 card">
+          <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Desafío Bootstrap.</p>
+            <a href="https://vfloresr28.github.io/cuppon/">Link</a>
+          </div>
+        </div>
+        <div class="col-md-3 card">
+          <img src="assets/img/github.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Desafío Github.</p>
+            <a href="https://vfloresr28.github.io/fdsw-github/">Link</a>
+          </div>
+        </div>
+        <!-- Añade más tarjetas de portafolio si es necesario -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Valentina Flores 2023. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
